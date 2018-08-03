@@ -3,7 +3,7 @@
 ## Table of Contents
 
 ## Abstract
-This document describes the LatecoLotteryServer. 
+This document describes the revert VMware snaphots. 
 The server have been developed to work with python 3.3+
 
 ## Quick Start Guide
