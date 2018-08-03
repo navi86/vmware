@@ -3,7 +3,7 @@
 ## Table of Contents
 
 ## Abstract
-The server have been developed to work with python 3.3+
+The script has been developed to work with python 3.3+
 
 The script reverts students VMs in the folder "vm\c3labs infrastructure". 
 If you pass Student01 then all VMs of Student01 will be reverted.
