@@ -21,5 +21,8 @@ pip install --upgrade -r requirements.txt
 
 
 ### Run script
-python ./vmware-preparation-students.py -s 'server' -u 'username' -p 'password' -students Student01 Student02
+Revert specific students and powerone VMs after operation
+python ./vmware-preparation-students.py -s 'server' -u 'username' -p 'password' --revert --powerOn --students Student01 Student02
+PowerOn all students VMs
+python ./vmware-preparation-students.py -s 'server' -u 'username' -p 'password' --powerOn --students all
  
