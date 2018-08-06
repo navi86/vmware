@@ -273,8 +273,8 @@ if __name__ == '__main__':
                         default='administrator@vsphere.local')
     parser.add_argument('-p', '--password', dest='password', type=str, help='password to connect vCenter',
                         default='password')
-    parser.add_argument('--revert', dest='revert', action='store_true', help='Execute revert Students.')
-    parser.add_argument('--powerOne', dest='powerOne', action='store_true', help='Execute powering vms. Boolean value.')
+    parser.add_argument('--revert', dest='revert', action='store_true', help='Execute revert vms.')
+    parser.add_argument('--powerOne', dest='powerOne', action='store_true', help='Execute powerOne vms.')
     parser.add_argument('--students', dest='list_students', nargs='+', type=str,
                         help='list of students. For choosing all students choose "all"', default = [])
     #parser.add_argument('-skipssl', dest='skipverification', type=bool, help='skip ssl verification', default=True)
