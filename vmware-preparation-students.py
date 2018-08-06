@@ -268,7 +268,7 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some taks.')
-    parser.add_argument('-s', '--server', dest='server', default='locahost', type=str, help='server address')
+    parser.add_argument('-s', '--server', dest='server', default='localhost', type=str, help='server address')
     parser.add_argument('-u', '--username', dest='username', type=str, help='username to connect vCenter',
                         default='administrator@vsphere.local')
     parser.add_argument('-p', '--password', dest='password', type=str, help='password to connect vCenter',
